@@ -1,0 +1,266 @@
+# Compile of t_ff.vhdl failed with 5 errors.
+# Compile of t_ff.vhdl failed with 5 errors.
+# Compile of t_ff.vhdl failed with 1 errors.
+# Compile of t_ff.vhdl failed with 1 errors.
+# Compile of t_ff.vhdl failed with 3 errors.
+# Compile of t_ff.vhdl failed with 2 errors.
+# Compile of t_ff.vhdl failed with 9 errors.
+# Compile of t_ff.vhdl was successful.
+vsim -gui work.t_ff
+# vsim -gui work.t_ff 
+# Start time: 15:41:00 on Sep 10,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.t_ff(behaviour)
+add wave -position insertpoint sim:/t_ff/*
+force -freeze sim:/t_ff/T 0 0
+force -freeze sim:/t_ff/Clk 0 0
+add wave -position insertpoint sim:/t_ff/*
+restart
+run
+force -freeze sim:/t_ff/T 1 0
+run
+# WARNING: No extended dataflow license exists
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+force -freeze sim:/t_ff/T 0 0
+run
+force -freeze sim:/t_ff/T 0 0
+force -freeze sim:/t_ff/Clk 1 0
+run
+force -freeze sim:/t_ff/Clk 0 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+# Compile of t_ff.vhdl failed with 3 errors.
+# Compile of t_ff.vhdl failed with 3 errors.
+# Compile of t_ff.vhdl failed with 3 errors.
+# Compile of t_ff.vhdl failed with 2 errors.
+# Compile of t_ff.vhdl failed with 2 errors.
+# Compile of t_ff.vhdl was successful.
+# Compile of t_ff.vhdl failed with 3 errors.
+# Compile of t_ff.vhdl was successful.
+# Compile of t_ff.vhdl failed with 2 errors.
+# Compile of t_ff.vhdl failed with 2 errors.
+# Compile of t_ff.vhdl failed with 2 errors.
+# Compile of t_ff.vhdl was successful.
+# Compile of t_ff.vhdl was successful.
+# Compile of t_ff.vhdl was successful.
+restart
+# Loading work.t_ff(behaviour)
+force -freeze sim:/t_ff/Clk 0 0
+force -freeze sim:/t_ff/T 0 0
+run
+force -freeze sim:/t_ff/T 1 0
+run
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+add wave -position insertpoint sim:/t_ff/*
+add wave -position insertpoint sim:/t_ff/*
+force -freeze sim:/t_ff/Clear 1 0
+run
+force -freeze sim:/t_ff/Clear 0 0
+run
+# WARNING: No extended dataflow license exists
+force -freeze sim:/t_ff/Clear 0 0
+restart
+force -freeze sim:/t_ff/T 0 0
+force -freeze sim:/t_ff/Clk 0 0
+run
+force -freeze sim:/t_ff/Clear 0 0
+run
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+force -freeze sim:/t_ff/Clear 1 0
+# Compile of t_ff.vhdl was successful.
+# Compile of t_ff.vhdl was successful.
+run
+force -freeze sim:/t_ff/T 1 0
+run
+force -freeze sim:/t_ff/Clk 0 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+# WARNING: No extended dataflow license exists
+force -freeze sim:/t_ff/T 0 0
+run
+force -freeze sim:/t_ff/Clk 0 0
+run
+force -freeze sim:/t_ff/T 1 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+# WARNING: No extended dataflow license exists
+force -freeze sim:/t_ff/T 0 0
+run
+force -freeze sim:/t_ff/Clear 0 0
+run
+run
+force -freeze sim:/t_ff/T 0 0
+run
+force -freeze sim:/t_ff/Clk 0 0
+run
+run
+# WARNING: No extended dataflow license exists
+force -freeze sim:/t_ff/T 1 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+run
+run
+run
+run
+restart
+# Loading work.t_ff(behaviour)
+force -freeze sim:/t_ff/Clk 0 0
+force -freeze sim:/t_ff/T 1 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+restart
+force -freeze sim:/t_ff/Clear 0 0
+force -freeze sim:/t_ff/T 0 0
+force -freeze sim:/t_ff/Clk 0 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+force -freeze sim:/t_ff/Clear 1 0
+force -freeze sim:/t_ff/Clk 0 0
+run
+force -freeze sim:/t_ff/T 1 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+force -freeze sim:/t_ff/T 0 0
+run
+noforce sim:/t_ff/Clk
+force -freeze sim:/t_ff/Clk 0 0
+run
+run
+restart
+vsim -gui work.t_ff
+# End time: 16:49:01 on Sep 10,2024, Elapsed time: 1:08:01
+# Errors: 0, Warnings: 5
+# vsim -gui work.t_ff 
+# Start time: 16:49:01 on Sep 10,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.t_ff(behaviour)
+add wave -position insertpoint sim:/t_ff/*
+force -freeze sim:/t_ff/Clear 0 0
+force -freeze sim:/t_ff/Clk 0 0
+force -freeze sim:/t_ff/T 0 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+force -freeze sim:/t_ff/Clear 1 0
+run
+force -freeze sim:/t_ff/Clk 0 0
+run
+force -freeze sim:/t_ff/T 1 0
+force -freeze sim:/t_ff/Clk 1 0
+run
+run
+force -freeze sim:/t_ff/Clk 0 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+# Compile of t_ff.vhdl was successful.
+restart
+# Loading work.t_ff(behaviour)
+noforce sim:/t_ff/Clk
+force -freeze sim:/t_ff/Clk 0 0
+force -freeze sim:/t_ff/Clear 0 0
+force -freeze sim:/t_ff/T 0 0
+run
+force -freeze sim:/t_ff/Clear 1 0
+restart
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+force -freeze sim:/t_ff/Clear 0 0
+run
+force -freeze sim:/t_ff/T 1 0
+force -freeze sim:/t_ff/Clk 0 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+force -freeze sim:/t_ff/Clk 0 0
+run
+# Load canceled
+# Compile of t_ff.vhdl was successful.
+# Compile of t_ff.vhdl was successful.
+vsim -gui work.t_ff
+# End time: 17:04:15 on Sep 10,2024, Elapsed time: 0:15:14
+# Errors: 1, Warnings: 0
+# vsim -gui work.t_ff 
+# Start time: 17:04:15 on Sep 10,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.t_ff(behaviour)
+add wave -position insertpoint sim:/t_ff/*
+force -freeze sim:/t_ff/Clk 0 0
+force -freeze sim:/t_ff/Clear 0 0
+force -freeze sim:/t_ff/T 0 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+force -freeze sim:/t_ff/Clk 0 0
+force -freeze sim:/t_ff/Clear 1 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+force -freeze sim:/t_ff/Clk 0 0
+force -freeze sim:/t_ff/Clear 0 0
+run
+force -freeze sim:/t_ff/Clk 1 0
+run
+# Compile of t_ff.vhdl failed with 1 errors.
+# Compile of part1.vhdl failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of t_ff.vhdl failed with 3 errors.
+# Compile of part1.vhdl failed with 1 errors.
+# 2 compiles, 2 failed with 4 errors.
+# Compile of t_ff.vhdl was successful.
+# Compile of part1.vhdl failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of t_ff.vhdl was successful.
+# Compile of part1.vhdl failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of t_ff.vhdl was successful.
+# Compile of part1.vhdl failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of t_ff.vhdl was successful.
+# Compile of part1.vhdl was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of t_ff.vhdl was successful.
+# Compile of part1.vhdl failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of t_ff.vhdl was successful.
+# Compile of part1.vhdl failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of t_ff.vhdl was successful.
+# Compile of part1.vhdl failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of t_ff.vhdl was successful.
+# Compile of part1.vhdl failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of t_ff.vhdl was successful.
+# Compile of part1.vhdl was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of t_ff.vhdl was successful.
+# Compile of part1.vhdl failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of t_ff.vhdl was successful.
+# Compile of part1.vhdl was successful.
+# 2 compiles, 0 failed with no errors.
+# End time: 18:00:25 on Sep 10,2024, Elapsed time: 0:56:10
+# Errors: 0, Warnings: 0
