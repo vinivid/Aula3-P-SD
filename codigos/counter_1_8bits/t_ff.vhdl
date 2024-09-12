@@ -18,7 +18,7 @@ begin
     if (rising_edge(Clk)) then
 	if (Clear = '1') then
 		temp <= '0';	
-        elsif (Enable = '0') then 
+        elsif (Enable = '1') then 
                 temp <= not temp;
 	else
 		temp <= temp;

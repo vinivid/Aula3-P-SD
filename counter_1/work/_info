@@ -9,23 +9,23 @@ z2
 cModel Technology
 dC:/intelFPGA/19.1
 Epart1
-Z0 w1726001992
+Z0 w1726159901
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 dC:/Users/15491959/Desktop/modelsim_codigo/Aula3-P-SD/counter_1
-Z4 8C:/Users/15491959/Desktop/modelsim_codigo/Aula3-P-SD/counter_1/part1.vhdl
-Z5 FC:/Users/15491959/Desktop/modelsim_codigo/Aula3-P-SD/counter_1/part1.vhdl
+Z3 dV:/Projetos/bonato/Aula3-P-SD/counter_1
+Z4 8V:/Projetos/bonato/Aula3-P-SD/counter_1/part1.vhdl
+Z5 FV:/Projetos/bonato/Aula3-P-SD/counter_1/part1.vhdl
 l0
 L4
 Vn?ZLOg]?;ol@e_@6b:AOP3
 !s100 G6YH>D4?BLL^GR2NY:Jd:1
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1726001994
+Z7 !s110 1726166736
 !i10b 1
-Z8 !s108 1726001994.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/15491959/Desktop/modelsim_codigo/Aula3-P-SD/counter_1/part1.vhdl|
-Z10 !s107 C:/Users/15491959/Desktop/modelsim_codigo/Aula3-P-SD/counter_1/part1.vhdl|
+Z8 !s108 1726166736.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|V:/Projetos/bonato/Aula3-P-SD/counter_1/part1.vhdl|
+Z10 !s107 V:/Projetos/bonato/Aula3-P-SD/counter_1/part1.vhdl|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
@@ -48,12 +48,12 @@ R10
 R11
 R12
 Et_ff
-Z13 w1726000567
+Z13 w1726166733
 R1
 R2
 R3
-Z14 8C:/Users/15491959/Desktop/modelsim_codigo/Aula3-P-SD/t_ff.vhdl
-Z15 FC:/Users/15491959/Desktop/modelsim_codigo/Aula3-P-SD/t_ff.vhdl
+Z14 8V:/Projetos/bonato/Aula3-P-SD/counter_1/t_ff.vhdl
+Z15 FV:/Projetos/bonato/Aula3-P-SD/counter_1/t_ff.vhdl
 l0
 L4
 VPS`Xo7EUVmLak0Raa^6Xo1
@@ -63,19 +63,19 @@ R6
 R7
 !i10b 1
 R8
-Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/15491959/Desktop/modelsim_codigo/Aula3-P-SD/t_ff.vhdl|
-Z17 !s107 C:/Users/15491959/Desktop/modelsim_codigo/Aula3-P-SD/t_ff.vhdl|
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|V:/Projetos/bonato/Aula3-P-SD/counter_1/t_ff.vhdl|
+Z17 !s107 V:/Projetos/bonato/Aula3-P-SD/counter_1/t_ff.vhdl|
 !i113 1
 R11
 R12
 Abehaviour
 R1
 R2
-DEx4 work 4 t_ff 0 22 PS`Xo7EUVmLak0Raa^6Xo1
+Z18 DEx4 work 4 t_ff 0 22 PS`Xo7EUVmLak0Raa^6Xo1
 l15
 L13
-VgUH[]VkoBnXD_9hLI4;ES1
-!s100 Z9;WzTnLF:72dS[9kM^UZ1
+VnkBN6jIW;2kPVXCD4Jf<a3
+!s100 D`Llo@dEX_I?D4mAbAgLR0
 R6
 32
 R7

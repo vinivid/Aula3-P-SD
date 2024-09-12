@@ -1,0 +1,17 @@
+[libraries]
+lib4.files = [
+    'com_disp.vhd'
+]
+
+lib3.files = [
+    'display_7seg.vhd',
+]
+
+lib2.files = [
+    'part1.vhdl',
+]
+
+lib1.files = [
+    't_ff.vhdl',
+]
+

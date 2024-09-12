@@ -1,0 +1,9 @@
+[libraries]
+lib2.files = [
+    'part1_4bits.vhdl',
+]
+
+lib1.files = [
+    't_ff.vhdl',
+]
+
