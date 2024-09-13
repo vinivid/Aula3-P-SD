@@ -31,7 +31,6 @@ begin
             when "1101" => out_disp <= "1000010"; 
             when "1110" => out_disp <= "0110000"; 
             when "1111" => out_disp <= "0111000";
-            when others => out_disp <= "0000000";
             end case;
     end process;
 end architecture;

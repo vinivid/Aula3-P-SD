@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dV:/Projetos/bonato/Aula3-P-SD/counter_1
+Ecounter
+Z0 w1726186650
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dV:/Projetos/bonato/Aula3-P-SD/counter_16
+Z7 8V:\Projetos\bonato\Aula3-P-SD\codigos\part2\counter.vhd
+Z8 FV:\Projetos\bonato\Aula3-P-SD\codigos\part2\counter.vhd
+l0
+L6
+V?`5RKJ@bzOfjSfa@3QXe]3
+!s100 lO8[J=ZJefY:iT7_=EGl^2
+Z9 OV;C;10.5b;63
+32
+Z10 !s110 1726186803
+!i10b 1
+Z11 !s108 1726186803.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|V:\Projetos\bonato\Aula3-P-SD\codigos\part2\counter.vhd|
+Z13 !s107 V:\Projetos\bonato\Aula3-P-SD\codigos\part2\counter.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Abehaviour
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 counter 0 22 ?`5RKJ@bzOfjSfa@3QXe]3
+l19
+L15
+V1F65V0mI`leLngOZKH]:S2
+!s100 :^Q`NiFzWAljI=e<oKPYM1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Edisplay_7seg
+Z16 w1726186192
+R3
+R4
+R5
+R6
+Z17 8V:\Projetos\bonato\Aula3-P-SD\codigos\part2\display_7seg.vhd
+Z18 FV:\Projetos\bonato\Aula3-P-SD\codigos\part2\display_7seg.vhd
+l0
+L5
+VeXPVTRXKed0]mKWZLUcb73
+!s100 M]@_VVhBn;3z^V2`7ZEMF3
+R9
+32
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|V:\Projetos\bonato\Aula3-P-SD\codigos\part2\display_7seg.vhd|
+Z20 !s107 V:\Projetos\bonato\Aula3-P-SD\codigos\part2\display_7seg.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R3
+R4
+R5
+Z21 DEx4 work 12 display_7seg 0 22 eXPVTRXKed0]mKWZLUcb73
+l14
+L12
+Z22 V=_CG3z0^B>7@ZooFe:kHC0
+Z23 !s100 C9dEn:Zcm:?MgXF@2DT]z3
+R9
+32
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 1
+R14
+R15
