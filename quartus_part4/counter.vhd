@@ -25,7 +25,7 @@ begin
                 save_counter <= "00000000000000000000000000";
 				display_counter <= "00";
             elsif (Enable = '1') then
-                --é necessario usar std logic unsigned para somar
+                --Ã© necessario usar std logic unsigned para somar
                 save_counter <= save_counter + 1;
 				if (save_counter = "10111110101111000010000000") then
                     display_counter <= display_counter + 1;
