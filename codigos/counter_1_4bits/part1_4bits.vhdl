@@ -75,5 +75,4 @@ Q1 <= out1;
 Q2 <= out2;
 Q3 <= out3;
 
-
 end architecture Behaviour;

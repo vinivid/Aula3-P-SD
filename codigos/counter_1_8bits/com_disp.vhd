@@ -16,10 +16,8 @@ architecture Behaviour of com_disp is
 
     component display_7seg is
         port (
-            input_disp_one  : in STD_LOGIC_VECTOR (3 downto 0);
-            input_disp_two : in STD_LOGIC_VECTOR (3 downto 0);
-            out_disp_one : out STD_LOGIC_VECTOR (6 downto 0);
-            out_disp_two : out STD_LOGIC_VECTOR (6 downto 0)
+            input_disp : in STD_LOGIC_VECTOR (3 downto 0);
+            out_disp : out STD_LOGIC_VECTOR (6 downto 0)
         );
     end component;
 
@@ -52,18 +50,23 @@ begin
         Q1 => count_one(1),
         Q2 => count_one(2),
         Q3 => count_one(3),
-        Q4 => count_two(4),
-        Q5 => count_two(5),
-        Q6 => count_two(6),
-        Q7 => count_two(7)
+        Q4 => count_two(0),
+        Q5 => count_two(1),
+        Q6 => count_two(2),
+        Q7 => count_two(3)
     );
 
-    deisplay_exit : display_7seg
+    display1 : display_7seg
     port map(
-        input_disp_one => count_one,
-        input_disp_two => count_two,
-        out_disp_one => t_out_disp_one,
-        out_disp_two => t_out_disp_two
+        input_disp => count_one,
+        out_disp => t_out_disp_one
     );
+
+    display2 : display_7seg
+     port map(
+        input_disp => count_two,
+        out_disp => t_out_disp_two
+    );
+
 
 end architecture;
