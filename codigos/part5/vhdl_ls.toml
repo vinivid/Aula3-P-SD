@@ -1,0 +1,13 @@
+[libraries]
+
+com_disp.files = [
+	'com_disp.vhd',	
+]
+
+display_7seg.files = [
+    'n_disp.vhd',
+]
+
+counter.files = [
+    'counter.vhd',
+]
