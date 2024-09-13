@@ -29,7 +29,7 @@ begin
                 save_counter <= save_counter + 1;
 				if (save_counter = "10111110101111000010000000") then
 					if (display_counter = "1001") then
-						display_counter <= "0000";
+						display_counter_counter <= "0000";
                 		save_counter <= "00000000000000000000000000";
 					else 
 						display_counter <= display_counter + 1;
