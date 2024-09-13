@@ -1,0 +1,181 @@
+|com_disp
+Key0 => part1:entry_point.Clock
+Sw0 => part1:entry_point.Entry
+Sw1 => part1:entry_point.Clear_all
+t_out_disp_one[0] << display_7seg:display1.out_disp[0]
+t_out_disp_one[1] << display_7seg:display1.out_disp[1]
+t_out_disp_one[2] << display_7seg:display1.out_disp[2]
+t_out_disp_one[3] << display_7seg:display1.out_disp[3]
+t_out_disp_one[4] << display_7seg:display1.out_disp[4]
+t_out_disp_one[5] << display_7seg:display1.out_disp[5]
+t_out_disp_one[6] << display_7seg:display1.out_disp[6]
+t_out_disp_two[0] << display_7seg:display2.out_disp[0]
+t_out_disp_two[1] << display_7seg:display2.out_disp[1]
+t_out_disp_two[2] << display_7seg:display2.out_disp[2]
+t_out_disp_two[3] << display_7seg:display2.out_disp[3]
+t_out_disp_two[4] << display_7seg:display2.out_disp[4]
+t_out_disp_two[5] << display_7seg:display2.out_disp[5]
+t_out_disp_two[6] << display_7seg:display2.out_disp[6]
+
+
+|com_disp|part1:entry_point
+Entry => and0.IN1
+Entry => t_ff:t0.Enable
+Clock => t_ff:t0.Clk
+Clock => t_ff:t1.Clk
+Clock => t_ff:t2.Clk
+Clock => t_ff:t3.Clk
+Clock => t_ff:t4.Clk
+Clock => t_ff:t5.Clk
+Clock => t_ff:t6.Clk
+Clock => t_ff:t7.Clk
+Clear_all => t_ff:t0.Clear
+Clear_all => t_ff:t1.Clear
+Clear_all => t_ff:t2.Clear
+Clear_all => t_ff:t3.Clear
+Clear_all => t_ff:t4.Clear
+Clear_all => t_ff:t5.Clear
+Clear_all => t_ff:t6.Clear
+Clear_all => t_ff:t7.Clear
+Q0 <= t_ff:t0.Q
+Q1 <= t_ff:t1.Q
+Q2 <= t_ff:t2.Q
+Q3 <= t_ff:t3.Q
+Q4 <= t_ff:t4.Q
+Q5 <= t_ff:t5.Q
+Q6 <= t_ff:t6.Q
+Q7 <= t_ff:t7.Q
+
+
+|com_disp|part1:entry_point|t_ff:t0
+Enable => temp.OUTPUTSELECT
+Clk => temp.CLK
+Clear => temp.OUTPUTSELECT
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|com_disp|part1:entry_point|t_ff:t1
+Enable => temp.OUTPUTSELECT
+Clk => temp.CLK
+Clear => temp.OUTPUTSELECT
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|com_disp|part1:entry_point|t_ff:t2
+Enable => temp.OUTPUTSELECT
+Clk => temp.CLK
+Clear => temp.OUTPUTSELECT
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|com_disp|part1:entry_point|t_ff:t3
+Enable => temp.OUTPUTSELECT
+Clk => temp.CLK
+Clear => temp.OUTPUTSELECT
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|com_disp|part1:entry_point|t_ff:t4
+Enable => temp.OUTPUTSELECT
+Clk => temp.CLK
+Clear => temp.OUTPUTSELECT
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|com_disp|part1:entry_point|t_ff:t5
+Enable => temp.OUTPUTSELECT
+Clk => temp.CLK
+Clear => temp.OUTPUTSELECT
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|com_disp|part1:entry_point|t_ff:t6
+Enable => temp.OUTPUTSELECT
+Clk => temp.CLK
+Clear => temp.OUTPUTSELECT
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|com_disp|part1:entry_point|t_ff:t7
+Enable => temp.OUTPUTSELECT
+Clk => temp.CLK
+Clear => temp.OUTPUTSELECT
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|com_disp|display_7seg:display1
+input_disp[0] => Mux0.IN19
+input_disp[0] => Mux1.IN19
+input_disp[0] => Mux2.IN19
+input_disp[0] => Mux3.IN19
+input_disp[0] => Mux4.IN19
+input_disp[0] => Mux5.IN19
+input_disp[0] => Mux6.IN19
+input_disp[1] => Mux0.IN18
+input_disp[1] => Mux1.IN18
+input_disp[1] => Mux2.IN18
+input_disp[1] => Mux3.IN18
+input_disp[1] => Mux4.IN18
+input_disp[1] => Mux5.IN18
+input_disp[1] => Mux6.IN18
+input_disp[2] => Mux0.IN17
+input_disp[2] => Mux1.IN17
+input_disp[2] => Mux2.IN17
+input_disp[2] => Mux3.IN17
+input_disp[2] => Mux4.IN17
+input_disp[2] => Mux5.IN17
+input_disp[2] => Mux6.IN17
+input_disp[3] => Mux0.IN16
+input_disp[3] => Mux1.IN16
+input_disp[3] => Mux2.IN16
+input_disp[3] => Mux3.IN16
+input_disp[3] => Mux4.IN16
+input_disp[3] => Mux5.IN16
+input_disp[3] => Mux6.IN16
+out_disp[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|com_disp|display_7seg:display2
+input_disp[0] => Mux0.IN19
+input_disp[0] => Mux1.IN19
+input_disp[0] => Mux2.IN19
+input_disp[0] => Mux3.IN19
+input_disp[0] => Mux4.IN19
+input_disp[0] => Mux5.IN19
+input_disp[0] => Mux6.IN19
+input_disp[1] => Mux0.IN18
+input_disp[1] => Mux1.IN18
+input_disp[1] => Mux2.IN18
+input_disp[1] => Mux3.IN18
+input_disp[1] => Mux4.IN18
+input_disp[1] => Mux5.IN18
+input_disp[1] => Mux6.IN18
+input_disp[2] => Mux0.IN17
+input_disp[2] => Mux1.IN17
+input_disp[2] => Mux2.IN17
+input_disp[2] => Mux3.IN17
+input_disp[2] => Mux4.IN17
+input_disp[2] => Mux5.IN17
+input_disp[2] => Mux6.IN17
+input_disp[3] => Mux0.IN16
+input_disp[3] => Mux1.IN16
+input_disp[3] => Mux2.IN16
+input_disp[3] => Mux3.IN16
+input_disp[3] => Mux4.IN16
+input_disp[3] => Mux5.IN16
+input_disp[3] => Mux6.IN16
+out_disp[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+out_disp[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
