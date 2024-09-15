@@ -14,25 +14,25 @@ Assumindo que inicialmente todos os flip-flops foram setados para zero, para que
 
 Esse comportamento é evidenciado na imagem a seguir:
 
-<img src='./Images/Clock_test.png'>
+<img src='./images/Clock_test.png'>
 
 Essa imagem também é a simulação que que fizemos no ModelSim para comprovar o funcionamento do contador de 8 bits.
 
 Agora compilando no Quartus para contarmos a quantidade de elementos lógicos que serão implementados na própria FPGA
 
-<img src='./Images/better_rtl_part1.jpg'>
+<img src='./images/better_rtl_part1.jpg'>
 
 A imagem não esta em uma qualidade muito boa, porém ela é mais visível na pasta "Images".
 
 A implementação na FPGA é da seguinte forma, para cada T flip-flop sera utilizado um flip-flop rising edge e dois MUX, como se tem 8 T flip-flops temos 24 elementos lógicos, somando as portas and temos 31 elementos lógicos para implementar o contador de 8 bits.
 
-<img src='./Images/part1.gif'>
+<img src='./images/part1.gif'>
 
 Este é o circuito funcionando na FPGA, obviamente não fora testado até valores muito grandes se não o botão quebraria, e a paciência se esgotaria.
 
 Agora, comparando o circuito do exercício com o de quatro bits que seria implementado na fpga.
 
-<img src='./Images/rtl_viwer_4bits.jpg'>
+<img src='./images/rtl_viwer_4bits.jpg'>
 
 É visível pela imagem que não há diferenças grandes além da forma na qual as conexões foram desenhadas, entretanto é notável de que a FPGA não implementou um elemento lógico para o T flip-flop e consequentemente teve de "criar" cada um com dois MUX.
 
@@ -59,11 +59,11 @@ end if;
 
 O que obtemos no RTL viewer a partir deste código em vhdl:
 
-<img src='./Images/rtl_viwer_part2.jpg'>
+<img src='./images/rtl_viwer_part2.jpg'>
 
 A maior diferença no design deste circuito em relação ao da parte anterior é de que possuímos um elemento lógico de soma para cada um dos bits do contador.
 
-<img src='./Images/16bit_counter.gif'>
+<img src='./images/16bit_counter.gif'>
 
 # Parte 3
 
@@ -93,7 +93,7 @@ if (rising_edge(Clock)) then
 end if;
 ```
 
-<img src='./Images/1sec_counter.gif'>
+<img src='./images/1sec_counter.gif'>
 
 # Parte 4
 
@@ -133,7 +133,7 @@ case input_disp is
     end case;
 end process;
 ```
-<img src='./Images/implace_deo.gif'>
+<img src='./images/implace_deo.gif'>
 
 # Parte 5
 
@@ -183,4 +183,4 @@ case input_disp is
 end case;
 ```
 
-<img src='./Images/moving_deo.gif'>
+<img src='./images/moving_deo.gif'>
