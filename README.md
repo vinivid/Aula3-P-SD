@@ -26,9 +26,7 @@ A imagem não esta em uma qualidade muito boa, porém ela é mais visível na pa
 
 A implementação na FPGA é da seguinte forma, para cada T flip-flop sera utilizado um flip-flop rising edge e dois MUX, como se tem 8 T flip-flops temos 24 elementos lógicos, somando as portas and temos 31 elementos lógicos para implementar o contador de 8 bits.
 
-<video width="320" height="240" controls>
-  <source src="./Images/part1.mp4" type="video/mp4">
-</video>
+<img src="./Images/part1.gif">
 
 Este é o circuito funcionando na FPGA, obviamente não fora testado até valores muito grandes se não o botão quebraria, e a paciência se esgotaria.
 
@@ -65,9 +63,7 @@ O que obtemos no RTL viewer a partir deste código em vhdl:
 
 A maior diferença no design deste circuito em relação ao da parte anterior é de que possuímos um elemento lógico de soma para cada um dos bits do contador.
 
-<video width="320" height="200" controls>
-  <source src="./Images/conter_16bits.mp4" type="video/mp4">
-</video>
+<img src="./Images/16bit_counter.gif">
 
 # Parte 3
 
@@ -97,9 +93,7 @@ if (rising_edge(Clock)) then
 end if;
 ```
 
-<video width="320" height="320" controls>
-  <source src="./Images/1sec_counter.mp4" type="video/mp4">
-</video>
+<img src="./Images/1sec_counter.gif">
 
 # Parte 4
 
@@ -139,10 +133,7 @@ case input_disp is
     end case;
 end process;
 ```
-
-<video width="320" height="320" controls>
-  <source src="./Images/implace_deo.mp4" type="video/mp4">
-</video>
+<img src="./Images/implace_deo.gif">
 
 # Parte 5
 
@@ -192,6 +183,4 @@ case input_disp is
 end case;
 ```
 
-<video width="320" height="200" controls>
-  <source src="./Images/moving_deo.mp4" type="video/mp4">
-</video>
+<img src="./Images/moving_deo.gif">
